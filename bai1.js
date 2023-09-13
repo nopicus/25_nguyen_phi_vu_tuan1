@@ -31,26 +31,11 @@ var markHigherBMI;
 if (markBMI > johnBMI) {
   markHigherBMI = true;
   console.log('Mark có chỉ số BMI cao hơn John:')
+  
 } else {
   markHigherBMI = false;
   console.log('John có chỉ số BMI cao hơn Mask:')
+  
 }
-
-// lấy dữ liệu từ html
-//  document.querySelector("#markMass").value;
-//  document.querySelector("#markHeight").value;
-//  document.querySelector("#johnMass").value;
-//  document.querySelector("#johnHeight").value;
-
-
-// // const markMassValue = markMass.value;
-// // const markHeightValue = markHeight.value;
-// // const johnMassValue = johnMass.value;
-// // const johnHeightValue = johnHeight.value;
-//  // lưu dư liêu
-// localStorage.setItem("markMass", markMass);
-// localStorage.setItem("markHeight", markHeight);
-// localStorage.setItem("johnMass", johnMass);
-// localStorage.setItem("johnHeight", johnHeight);
 console.log(markHigherBMI)
 
