@@ -3,8 +3,8 @@
 // câu 1
 const dolphinsScores = [96, 108, 89];
 const koalasScores = [88, 91, 110];
-const dolphinsAverageScore = dolphinsScores.reduce((a, b) => a + b) / dolphinsScores.length;
-const koalasAverageScore = koalasScores.reduce((a, b) => a + b) / koalasScores.length;
+const dolphinsAverageScore = dolphinsScores.reduce((a, b, c) => a + b+ c) / dolphinsScores.length;
+const koalasAverageScore = koalasScores.reduce((a, b, c) => a + b + c) / koalasScores.length;
 console.log('đội Dolphins: ', dolphinsAverageScore);
 console.log('đội Koalas: ', koalasAverageScore);
 // câu 2
